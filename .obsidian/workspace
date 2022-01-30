@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "3410a1ebb758dc46",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc5d5168f34b834f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Programming/Algorithm/Sorting/Quick-Sort.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8dd8666482ab1fc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "35eed6ea0f2ba733",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6776ea8792d2032c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3c74c35e5dccd96d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d77b5bd0a61ffcb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d21679ecf9864298",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0b517f3a79828ed",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9d605c8578b8bbfc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "6a032cdf6baa7351",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "161a18a23c1668fc",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Programming/Algorithm/Sorting/Quick-Sort.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7299422879181291,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "eeca68972befa9c7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programming/Algorithm/Sorting/Quick-Sort.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "dc5d5168f34b834f",
+  "lastOpenFiles": [
+    "Programming/Algorithm/Sorting/Quick-Sort.md",
+    "Programming/Algorithm/Sorting/Merge-Sort.md",
+    "Programming/Algorithm/Sorting/Insertion-Sort.md",
+    "Programming/Algorithm/Sorting/Other-Languages/Quick-Sort-Go.md",
+    "Programming/Algorithm/Sorting/Bubble-Sort.md",
+    "Programming/Algorithm/Sorting/Heap-Sort.md",
+    "Programming/Algorithm/Sorting/Selection-Sort.md",
+    "Programming/Low-level/Assembly/Assembly-Overview.md",
+    "Programming/Amazing-Blogs.md",
+    "Programming/Low-level/Assembly/x86-Calling-Conventions.md"
+  ]
+}

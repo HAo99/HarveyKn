@@ -1,0 +1,3 @@
+- [邓宁-克鲁格效应 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/%E9%84%A7%E5%AF%A7-%E5%85%8B%E9%AD%AF%E6%A0%BC%E6%95%88%E6%87%89)
+- [Big-fish–little-pond effect - Wikipedia](https://en.wikipedia.org/wiki/Big-fish%E2%80%93little-pond_effect)
+- 

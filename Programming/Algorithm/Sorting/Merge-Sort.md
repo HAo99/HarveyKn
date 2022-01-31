@@ -1,14 +1,22 @@
-```c
-void merge_sort(int* nums, int l, int r);
-void merge(int* nums, int l, int m, int r);
+# 归并排序
 
-int* sortArray(int* nums, int numsSize, int* returnSize){
-    merge_sort(nums, 0, numsSize - 1);
-    *returnSize = numsSize;
-    return nums;
+原始写法：
+
+```cpp
+#include <vector>
+
+using namespace std;
+
+void merge_sort(vector<int>&);
+void merge_sort(vector<int>&, int, int);
+void merge(vector<int>&, int, int, int);
+
+void merge_sort(vector<int>& nums)
+{
+    merge_sort(nums, 0, nums.size() - 1);
 }
 
-void merge_sort(int* nums, int l, int r)
+void merge_sort(vector<int>& nums, int l, int r)
 {
     if (l >= r) return;
     int mid = (l+r) >> 1;
@@ -17,7 +25,7 @@ void merge_sort(int* nums, int l, int r)
     merge(nums, l, mid, r);
 }
 
-void merge(int* nums, int l, int m, int r)
+void merge(vector<int>& nums, int l, int m, int r)
 {
     int i = l;
     int j = m + 1;
@@ -35,3 +43,14 @@ void merge(int* nums, int l, int m, int r)
     }
 }
 ```
+
+## 优化一：内存复用
+
+**解决的问题**
+
+在 merge 操作的时候，每一次调用都需要申请一篇新的数组空间，用完后销毁。频繁对内存进行申请与销毁的开销是很大的。
+
+**解决方法**
+
+直接开辟一片足够使用的内存空间，在 merge 过程中进行复用。
+
